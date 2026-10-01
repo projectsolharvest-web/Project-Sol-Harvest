@@ -67,22 +67,23 @@ To prevent market distortion while maintaining local field staff, each AGHub ope
 ## 4. Scalable Multi-Unit Interlink (N+1 Architecture)
 
 To support larger populations, individual AGHubs connect into large-scale regional complexes using standardized modular interconnects:
+
 ```mermaid
-graph TD
-    subgraph Units ["Distributed AGHub Units"]
-        U1["<b>AGHub Unit #1</b><br>48VDC LFP Battery / BMS"]
-        U2["<b>AGHub Unit #2</b><br>48VDC LFP Battery / BMS"]
-        U3["<b>AGHub Unit #3</b><br>48VDC LFP Battery / BMS"]
+flowchart TD
+    subgraph Units["Distributed AGHub Units"]
+        U1["AGHub Unit #1 - 48VDC LFP Battery/BMS"]
+        U2["AGHub Unit #2 - 48VDC LFP Battery/BMS"]
+        U3["AGHub Unit #3 - 48VDC LFP Battery/BMS"]
     end
 
-    T1["Direct DC Tie<br><i>(4/0 AWG Marine Cable)</i>"]
-    T2["Direct DC Tie<br><i>(4/0 AWG Marine Cable)</i>"]
-    T3["Direct DC Tie<br><i>(4/0 AWG Marine Cable)</i>"]
+    T1["Direct DC Tie (4/0 AWG Marine)"]
+    T2["Direct DC Tie (4/0 AWG Marine)"]
+    T3["Direct DC Tie (4/0 AWG Marine)"]
 
-    BUS["<b>COMMON HIGH-CAPACITY DC BUS BAR</b>"]
+    BUS["COMMON HIGH-CAPACITY DC BUS BAR"]
 
-    HUB["<b>Master Microgrid Hub</b><br>Shared Battery Load Balancer"]
-    LOAD["<b>Regional Load / Auxiliary Pumps</b><br>Extended Site Infrastructure"]
+    HUB["Master Microgrid Hub"]
+    LOAD["Regional Load / Pump"]
 
     U1 --> T1
     U2 --> T2
