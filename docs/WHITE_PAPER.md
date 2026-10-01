@@ -23,18 +23,14 @@ Traditional global food relief operates on an infinite Operational Expenditure (
 ## 2. Hardware & Systems Architecture
 
 Each AGHub is constructed inside an insulated, marine-grade 40ft High-Cube Corten steel container (40ft x 8ft x 9.5ft), structurally re-engineered for off-grid vertical aeroponic and nutrient film technique (NFT) cultivation.
-
-+--------------------------------------------------------------------+
-|                   AGHUB SINGLE-UNIT HARDWARE STACK                 |
-+--------------------------------------------------------------------+
-| 1. SOLAR CANOPY     : 20kW TOPCon Glass-Glass Folding Array (Roof-Mounted)       |
-| 2. ENERGY STORAGE   : 20kWh LFP (Lithium Iron Phosphate) Cell Modules (48V Bus)  |
-| 3. INVERTER STACK   : 15kW Pure Sine Wave DC/AC Inverter (48VDC to 230VAC 1-Phase)  |
-| 4. CLIMATE/HVAC     : 4kW Variable-Refrigerant Inverter Heat Pump & Dehumidifier  |
-| 5. CULTIVATION CORE : 4x Vertical Aluminum Rack Modules with Full-Spectrum LEDs   |
-| 6. WATER MANAGEMENT : Closed-Loop Sump, UV Sterilizer & VFD Recirculating Pumps    |
-| 7. COMPUTE/SAT      : ARM64 Industrial Edge Gateway + Starlink Flat High-Perf Dish|
-+-----------------------------------------------------------------------------------+
+System Sub-Component	Technical Specification	Functional Scope & Integration
+1. Solar Canopy	20kW TOPCon Glass-Glass Folding Array	Roof-mounted, high-efficiency generation rail system
+2. Energy Storage	20kWh LFP (Lithium Iron Phosphate)	48V DC bus cell modules with integrated BMS
+3. Inverter Stack	15kW Pure Sine Wave DC/AC Inverter	48VDC to 230VAC single-phase power conversion
+4. Climate / HVAC	4kW Variable-Refrigerant Inverter	Heat pump & dehumidifier for condensation recovery
+5. Cultivation Core	4x Vertical Aluminum Rack Modules	High-density vertical towers with full-spectrum LEDs
+6. Water Management	Closed-Loop Sump & VFD Pumps	Ultrafiltration, UV sterilizer, and recirculating loop
+7. Compute & Sat	ARM64 Industrial Gateway + Starlink	Flat High-Performance dish with zero-trust telemetry
 
 ### 2.1 Microgrid & Electrical Topology
 * **Solar Generation:** 20kW TOPCon glass-glass photovoltaic panels (>22.5% cell efficiency) deployed on a heavy-duty aluminum folding canopy rail system.
