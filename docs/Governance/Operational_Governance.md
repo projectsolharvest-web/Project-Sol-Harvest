@@ -18,11 +18,10 @@ flowchart TD
     PPT -->|Allocates Annual Operating Yield| OPCO
     TAC -->|Audits Standards & Safety Protocols| OPCO
 ```
-1.1 — Management Entities
+### 1.1 — Management Entities
 
-    The Perpetual Purpose Trust Board: Serves as the ultimate fiduciary guardian. Holds no equity and enforces strict compliance with the Trust Charter, seed allocations, and open-source mandates.
-
-    Operations Company (OpCo): The primary execution vehicle responsible for procurement, factory assembly, field logistics, software firmware maintenance, and Starlink telemetry monitoring.
+* **The Perpetual Purpose Trust Board:** Serves as the ultimate fiduciary guardian. Holds no equity and enforces strict compliance with the Trust Charter, seed allocations, and open-source mandates.
+* **Operations Company (OpCo):** The primary execution vehicle responsible for procurement, factory assembly, field logistics, software firmware maintenance, and Starlink telemetry monitoring.
     
 2. EXECUTIVE COMPENSATION & SALARY CAP STRUCTURE
 
