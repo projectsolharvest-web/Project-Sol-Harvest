@@ -95,6 +95,8 @@ flowchart TD
 
     BUS --> HUB
     BUS --> LOAD
+```
+
 
 ### 4.1 Bus & Communication Mechanics
 * **Common DC Bus Bar:** Direct-tie 4/0 AWG marine-grade copper conduits allow parallel energy balancing across up to 20 containers. Surplus solar energy from one unit dynamically feeds the climate load of an adjacent unit.
