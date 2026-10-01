@@ -24,10 +24,10 @@ Traditional global food relief operates on an infinite Operational Expenditure (
 
 Each AGHub is constructed inside an insulated, marine-grade 40ft High-Cube Corten steel container (40ft x 8ft x 9.5ft), structurally re-engineered for off-grid vertical aeroponic and nutrient film technique (NFT) cultivation.
 
-+-----------------------------------------------------------------------------------+
-|                        AGHUB SINGLE-UNIT HARDWARE STACK                           |
-+-----------------------------------------------------------------------------------+
-| 1. SOLAR CANOPY     : 20kW TOPCon Glass-Glass Folding Array (Roof-Mounted)        |
++--------------------------------------------------------------------+
+|                   AGHUB SINGLE-UNIT HARDWARE STACK                 |
++--------------------------------------------------------------------+
+| 1. SOLAR CANOPY     : 20kW TOPCon Glass-Glass Folding Array (Roof-Mounted)       |
 | 2. ENERGY STORAGE   : 20kWh LFP (Lithium Iron Phosphate) Cell Modules (48V Bus)  |
 | 3. INVERTER STACK   : 15kW Pure Sine Wave DC/AC Inverter (48VDC to 230VAC 1-Phase)  |
 | 4. CLIMATE/HVAC     : 4kW Variable-Refrigerant Inverter Heat Pump & Dehumidifier  |
