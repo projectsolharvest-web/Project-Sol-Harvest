@@ -120,19 +120,23 @@ Operating in unmonitored or hostile environments requires rigorous hardware-leve
 
 The project executes across two distinct phases to validate engineering metrics prior to full capital deployment:
 
-+-----------------------------------------------------------------------------------+
-|                            GLOBAL DEPLOYMENT TIMELINE                             |
-+-----------------------------------------------------------------------------------+
-| PHASE 1: STRESS-TEST DEPLOYMENT (1,000 UNITS | YEAR 1)                            |
-|  - Zone A: Northern Kenya (High Thermal & Solar Desalination Stress)              |
-|  - Zone B: Central American Dry Corridor (Mountainous Logistics & Co-Op Integration)|
-|  - Zone C: Southern Bangladesh (Amphibious Monsoonal Pontoon Integration)         |
-|  - Metric Benchmark: 95% Uptime across 12 consecutive months.                     |
-|                                                                                   |
-| PHASE 2: FULL GLOBAL SCALING (4,000 UNITS | YEARS 2-4)                             |
-|  - Mass deployment across Sub-Saharan Africa, South Asia, and Latin America.       |
-|  - Full capitalization of the $2.0B Perpetual Maintenance Trust.                   |
-+-----------------------------------------------------------------------------------+
+```mermaid
+flowchart TD
+    subgraph P1["PHASE 1: STRESS-TEST DEPLOYMENT (1,000 UNITS | YEAR 1)"]
+        direction TB
+        ZA["<b>Zone A: Northern Kenya</b><br>High Thermal & Solar Desalination Stress"]
+        ZB["<b>Zone B: Central American Dry Corridor</b><br>Mountainous Logistics & Co-Op Integration"]
+        ZC["<b>Zone C: Southern Bangladesh</b><br>Amphibious Monsoonal Pontoon Integration"]
+        BM["<b>Metric Benchmark:</b> 95% Uptime across 12 consecutive months"]
+    end
+
+    subgraph P2["PHASE 2: FULL GLOBAL SCALING (4,000 UNITS | YEARS 2-4)"]
+        direction TB
+        SCALE["• Mass deployment across Sub-Saharan Africa, South Asia, and Latin America<br>• Full capitalization of the $2.0B Perpetual Maintenance Trust"]
+    end
+
+    P1 --> P2
+```
 
 ---
 
