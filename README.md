@@ -21,5 +21,3 @@
 * **N+1 Scalable Microgrids:** Modular interconnect capabilities allowing individual AGHubs to link into high-capacity regional production complexes sharing power, water, and compute.
 
 ---
-
-## 🛠️ System Hardware Specification (Single Unit)
