@@ -23,7 +23,7 @@ flowchart TD
     The Perpetual Purpose Trust Board: Serves as the ultimate fiduciary guardian. Holds no equity and enforces strict compliance with the Trust Charter, seed allocations, and open-source mandates.
 
     Operations Company (OpCo): The primary execution vehicle responsible for procurement, factory assembly, field logistics, software firmware maintenance, and Starlink telemetry monitoring.
-
+    
 2. EXECUTIVE COMPENSATION & SALARY CAP STRUCTURE
 
 To ensure maximum capital efficiency and align leadership directly with humanitarian impact, executive compensation is subject to mandatory structural caps relative to the project's overall operational budget.
