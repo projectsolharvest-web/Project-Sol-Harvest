@@ -47,11 +47,11 @@ Each AGHub is constructed inside an insulated, marine-grade 40ft High-Cube Corte
 
 Project Sol-Harvest eliminates long-term charity fatigue by funding perpetual physical operations through a capital trust model rather than endless donation cycles.
 
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│                           $10.0 BILLION INITIAL SEED CAPEX                      │
-└────────────────────────┬────────────────────────────────────────┬───────────────┘
-│                                        │
-▼                                        ▼
+┌───────────────────────────────────────────┐
+│       $10.0 BILLION INITIAL SEED CAPEX    │
+└───────────────┬───────────────────────────┘
+│                                     
+▼                                     
 ┌────────────────────────────────────────┐       ┌──────────────────────────┐
 │  $8.0B HARDWARE & DEPLOYMENT CAPEX     │       │ $2.0B PERPETUAL TRUST    │
 │  - 5,000 AGHub Units ($1.315M/unit)    │       │ - Invested in Low-Risk   │
