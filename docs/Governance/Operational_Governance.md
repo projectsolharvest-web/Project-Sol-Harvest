@@ -37,21 +37,20 @@ To ensure maximum capital efficiency and align leadership directly with humanita
 | **Chief Operating Officer (COO)** | `$210,000 / yr` | `20%` ($42,000) | Supply chain cost efficiency ($1.315M/unit CapEx target) |
 | **Regional Operations Leads** | `$140,000 / yr` | `15%` ($21,000) | Local 85/15 community yield distribution & regional site uptime |
 
-2.2 — Executive Compensation Guiding Principles
+### 2.2 — Executive Compensation Guiding Principles
 
-    Zero Equity / Profit Shares: Because Sol-Harvest operates under a Perpetual Purpose Trust, no equity, stock options, or profit-sharing units are issued to executives or employees.
+* **Zero Equity / Profit Shares:** Because Sol-Harvest operates under a Perpetual Purpose Trust, no equity, stock options, or profit-sharing units are issued to executives or employees.
+* **Maximum Spread Ratio:** The ratio between the highest-paid executive salary and the lowest-paid full-time field technician salary within the operating company shall not exceed **5:1**.
+* **Bonus Calculation Metric:** Variable performance bonuses are tied strictly to hardware uptime, community distribution efficiency, and open-source milestone releases—never to commercial sales volume.
 
-    Maximum Spread Ratio: The ratio between the highest-paid executive salary and the lowest-paid full-time field technician salary within the operating company shall not exceed 5:1.
+---
 
-    Bonus Calculation Metric: Variable performance bonuses are tied strictly to hardware uptime, community distribution efficiency, and open-source milestone releases—never to commercial sales volume.
-
-3. ADMINISTRATIVE OVERHEAD & OPERATING EXPENSES (OpEx)
+## 3. ADMINISTRATIVE OVERHEAD & OPERATING EXPENSES (OpEx)
 
 To ensure that funds remain dedicated to deployment and ongoing maintenance:
 
-    Administrative Cap: Total administrative expenses (executives, legal, accounting, compliance, and office overhead) are strictly capped at ≤ 3.5% of the annual budget.
-
-    Direct Field Allocation: A minimum of 96.5% of all operating funds disbursed from the Perpetual Trust yield must go directly toward hardware manufacturing, replacement parts, logistics, field labor, and local community sub-trust allocations.
+* **Administrative Cap:** Total administrative expenses (executives, legal, accounting, compliance, and office overhead) are strictly capped at **≤ 3.5%** of the annual budget.
+* **Direct Field Allocation:** A minimum of **96.5%** of all operating funds disbursed from the Perpetual Trust yield must go directly toward hardware manufacturing, replacement parts, logistics, field labor, and local community sub-trust allocations.
 
 4. CONFLICT OF INTEREST & ANTI-CORRUPTION POLICIES
 4.1 — Vendor & Procurement Auditing
