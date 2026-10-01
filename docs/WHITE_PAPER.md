@@ -67,27 +67,33 @@ To prevent market distortion while maintaining local field staff, each AGHub ope
 ## 4. Scalable Multi-Unit Interlink (N+1 Architecture)
 
 To support larger populations, individual AGHubs connect into large-scale regional complexes using standardized modular interconnects:
+```mermaid
+graph TD
+    subgraph Units ["Distributed AGHub Units"]
+        U1["<b>AGHub Unit #1</b><br>48VDC LFP Battery / BMS"]
+        U2["<b>AGHub Unit #2</b><br>48VDC LFP Battery / BMS"]
+        U3["<b>AGHub Unit #3</b><br>48VDC LFP Battery / BMS"]
+    end
 
-AGHUB UNIT #1                    AGHUB UNIT #2                    AGHUB UNIT #3
-┌──────────────┐                 ┌──────────────┐                 ┌──────────────┐
-│  48VDC LFP   │                 │  48VDC LFP   │                 │  48VDC LFP   │
-│ Battery/BMS  │                 │ Battery/BMS  │                 │ Battery/BMS  │
-└──────┬───────┘                 └──────┬───────┘                 └──────┬───────┘
-│                                │                                │
-▼                                ▼                                ▼
-[ Direct DC Tie ]                [ Direct DC Tie ]                [ Direct DC Tie ]
-(4/0 AWG Marine)                 (4/0 AWG Marine)                 (4/0 AWG Marine)
-│                                │                                │
-└────────────────────────┬───────┴────────────────────────┘
-│
-▼
-====================================
-COMMON HIGH-CAPACITY DC BUS BAR
-====================================
-│
-├─────────────────────────────────┐
-▼                                 ▼
-[ Master Microgrid Hub ]          [ Regional Load / Pump ]
+    T1["Direct DC Tie<br><i>(4/0 AWG Marine Cable)</i>"]
+    T2["Direct DC Tie<br><i>(4/0 AWG Marine Cable)</i>"]
+    T3["Direct DC Tie<br><i>(4/0 AWG Marine Cable)</i>"]
+
+    BUS["<b>COMMON HIGH-CAPACITY DC BUS BAR</b>"]
+
+    HUB["<b>Master Microgrid Hub</b><br>Shared Battery Load Balancer"]
+    LOAD["<b>Regional Load / Auxiliary Pumps</b><br>Extended Site Infrastructure"]
+
+    U1 --> T1
+    U2 --> T2
+    U3 --> T3
+
+    T1 --> BUS
+    T2 --> BUS
+    T3 --> BUS
+
+    BUS --> HUB
+    BUS --> LOAD
 
 ### 4.1 Bus & Communication Mechanics
 * **Common DC Bus Bar:** Direct-tie 4/0 AWG marine-grade copper conduits allow parallel energy balancing across up to 20 containers. Surplus solar energy from one unit dynamically feeds the climate load of an adjacent unit.
