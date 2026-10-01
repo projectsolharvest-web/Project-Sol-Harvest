@@ -47,25 +47,19 @@ Each AGHub is constructed inside an insulated, marine-grade 40ft High-Cube Corte
 
 Project Sol-Harvest eliminates long-term charity fatigue by funding perpetual physical operations through a capital trust model rather than endless donation cycles.
 
-┌───────────────────────────────────────────┐
-│       $10.0 BILLION INITIAL SEED CAPEX    │
-└───────────────┬───────────────────────────┘
-│                                     
-▼                                     
-┌────────────────────────────────────────┐       ┌──────────────────────────┐
-│  $8.0B HARDWARE & DEPLOYMENT CAPEX     │       │ $2.0B PERPETUAL TRUST    │
-│  - 5,000 AGHub Units ($1.315M/unit)    │       │ - Invested in Low-Risk   │
-│  - Cold-Chain Micro-EVs                │       │   Treasury Instruments   │
-│  - Deep Wells & Local Microgrids       │       │ - Yield: ~5% ($100M/yr) │
-│  - Factory & Field Labor               │       └────────────┬─────────────┘
-└────────────────────────────────────────┘                    │
-▼
-┌──────────────────────────┐
-│ ANNUAL CASH FLOW         │
-│ - Hardware Wear: $40M/yr │
-│ - Net Surplus  : $60M/yr │
-│   (Reinvested to Principal)
-└──────────────────────────┘
+> ### $10.0 BILLION INITIAL SEED CAPEX
+> 
+> * **$8.0B — Hardware & Deployment CapEx**
+>   * **5,000 AGHub Units** ($1.315M/unit allocated cap)
+>   * **Cold-Chain Micro-EV Fleet**
+>   * **Deep Wells & Local Microgrids**
+>   * **Factory & Field Labor**
+>
+> * **$2.0B — Perpetual Purpose Trust**
+>   * Invested in low-risk Treasury instruments
+>   * **Yield:** ~5% ($100M/year)
+>     * **-$40M/year:** Hardware Wear & Maintenance
+>     * **+$60M/year:** Net Surplus *(Reinvested directly to principal to beat inflation)*
 
 ### 3.1 Local Economic Integration (The 85/15 Split)
 To prevent market distortion while maintaining local field staff, each AGHub operates on a dual distribution yield model:
